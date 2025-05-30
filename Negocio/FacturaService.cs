@@ -1,5 +1,4 @@
-﻿//codigo fuente
-using Entidad;
+﻿using Entidad;
 using Modelo;
 namespace Negocio
 {
