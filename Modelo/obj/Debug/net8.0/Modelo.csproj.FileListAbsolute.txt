@@ -1,0 +1,17 @@
+C:\Users\linda\source\repos\factura\Modelo\bin\Debug\net8.0\Modelo.deps.json
+C:\Users\linda\source\repos\factura\Modelo\bin\Debug\net8.0\Modelo.runtimeconfig.json
+C:\Users\linda\source\repos\factura\Modelo\bin\Debug\net8.0\Modelo.dll
+C:\Users\linda\source\repos\factura\Modelo\bin\Debug\net8.0\Modelo.pdb
+C:\Users\linda\source\repos\factura\Modelo\bin\Debug\net8.0\Entidad.dll
+C:\Users\linda\source\repos\factura\Modelo\bin\Debug\net8.0\Entidad.pdb
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.csproj.AssemblyReference.cache
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfo.cs
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.csproj.Up2Date
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.dll
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\refint\Modelo.dll
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.pdb
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\Modelo.genruntimeconfig.cache
+C:\Users\linda\source\repos\factura\Modelo\obj\Debug\net8.0\ref\Modelo.dll

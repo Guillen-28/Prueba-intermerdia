@@ -1,0 +1,33 @@
+﻿@model Entidad.Factura
+
+@{
+    ViewData["Title"] = "Detalles de Factura";
+}
+
+<div class="card shadow p-4">
+    <h2 class="mb-4 text-info"><i class="fas fa-eye"></i> Detalles de Factura</h2>
+
+    <dl class="row">
+        <dt class="col-sm-3">Nombre</dt>
+        <dd class="col-sm-9">@Model.Nombre</dd>
+
+        <dt class="col-sm-3">Especialidad</dt>
+        <dd class="col-sm-9">@Model.Especialidad</dd>
+
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Monto</dt>
+        <dd class="col-sm-9">@Model.Monto.ToString("C")</dd>
+
+        <dt class="col-sm-3">Fecha</dt>
+        <dd class="col-sm-9">@Model.Fecha.ToShortDateString()</dd>
+    </dl>
+
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+        <i class="fas fa-edit"></i> Editar
+    </a>
+    <a asp-action="Index" class="btn btn-secondary ms-2">
+        <i class="fas fa-arrow-left"></i> Volver
+    </a>
+</div>

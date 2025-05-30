@@ -1,0 +1,123 @@
+﻿@model IEnumerable<Entidad.Factura>
+
+@{
+    ViewData["Title"] = "Sistema de Facturación";
+}
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+<style>
+    body {
+        background-color: #f2f4f7;
+    }
+
+    .page-header {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: #0d6efd;
+        font-weight: 700;
+        font-size: 2.4rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-add {
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 12px 24px;
+        box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-add:hover {
+            background-color: #084298;
+        }
+
+    .table {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+        background-color: #fff;
+    }
+
+    thead th {
+        background-color: #0d6efd;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f9fbff;
+    }
+
+    tbody td {
+        vertical-align: middle;
+        padding: 12px 15px;
+    }
+
+    .btn-action {
+        margin-right: 6px;
+        border-radius: 8px;
+        padding: 7px 14px;
+        font-size: 0.9rem;
+        transition: transform 0.15s ease;
+    }
+
+        .btn-action:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-action i {
+            margin-right: 6px;
+        }
+</style>
+
+<h1 class="page-header"><i class="fas fa-receipt me-2"></i>Facturas</h1>
+
+<div class="text-end">
+    <a asp-action="Create" class="btn btn-primary btn-add" title="Agregar nueva factura">
+        <i class="fas fa-plus-circle me-1"></i> Agregar Factura
+    </a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered text-center align-middle">
+        <thead>
+            <tr>
+                <th><i class="fas fa-box"></i> Producto</th>
+                <th><i class="fas fa-tag"></i> Marca</th>
+                <th><i class="fas fa-envelope"></i> Email</th>
+                <th><i class="fas fa-dollar-sign"></i> Monto</th>
+                <th><i class="fas fa-calendar-day"></i> Fecha</th>
+                <th><i class="fas fa-gear"></i> Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nombre</td>  <!-- Producto -->
+                    <td>@item.Especialidad</td> <!-- Marca -->
+                    <td>@item.Email</td>
+                    <td>@item.Monto.ToString("C")</td>
+                    <td>@item.Fecha.ToString("dd MMM yyyy")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-action" title="Editar factura">
+                            <i class="fas fa-edit"></i> Editar
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-action text-white" title="Ver detalles">
+                            <i class="fas fa-eye"></i> Detalles
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-action" title="Eliminar factura">
+                            <i class="fas fa-trash-alt"></i> Eliminar
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

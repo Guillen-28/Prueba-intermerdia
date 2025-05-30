@@ -1,0 +1,11 @@
+C:\Users\linda\source\repos\factura\Entidad\bin\Debug\net8.0\Entidad.deps.json
+C:\Users\linda\source\repos\factura\Entidad\bin\Debug\net8.0\Entidad.dll
+C:\Users\linda\source\repos\factura\Entidad\bin\Debug\net8.0\Entidad.pdb
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\Entidad.AssemblyInfoInputs.cache
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\Entidad.AssemblyInfo.cs
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\Entidad.dll
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\refint\Entidad.dll
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\Entidad.pdb
+C:\Users\linda\source\repos\factura\Entidad\obj\Debug\net8.0\ref\Entidad.dll

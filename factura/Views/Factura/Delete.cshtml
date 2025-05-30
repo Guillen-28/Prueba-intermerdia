@@ -1,0 +1,110 @@
+﻿@model Entidad.Factura
+
+@{
+    ViewData["Title"] = "Eliminar Factura";
+}
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+<style>
+    body {
+        background-color: #f2f4f7;
+    }
+
+    .confirm-container {
+        max-width: 500px;
+        margin: 60px auto;
+        background: white;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color: #333;
+    }
+
+    h2 {
+        color: #b02a37; /* rojo oscuro */
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px rgba(176, 42, 55, 0.3);
+    }
+
+    .factura-details {
+        text-align: left;
+        margin-bottom: 25px;
+        font-size: 1.1rem;
+    }
+
+        .factura-details strong {
+            color: #0d6efd;
+        }
+
+    /* Botones */
+    .btn-danger, .btn-cancel {
+        display: inline-block;
+        width: 45%;
+        padding: 12px 0;
+        font-weight: 700;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        border: none;
+        margin: 0 2.5%;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        user-select: none;
+    }
+
+    .btn-danger {
+        background-color: #b02a37; /* rojo oscuro */
+        color: #fff;
+        box-shadow: 0 6px 20px rgba(176, 42, 55, 0.7);
+    }
+
+        .btn-danger:hover,
+        .btn-danger:focus {
+            background-color: #7a1c26; /* rojo más oscuro */
+            color: #fff;
+            outline: none;
+        }
+
+    .btn-cancel {
+        background-color: #495057; /* gris oscuro */
+        color: #fff;
+    }
+
+        .btn-cancel:hover,
+        .btn-cancel:focus {
+            background-color: #343a40; /* gris más oscuro */
+            color: #fff;
+            outline: none;
+        }
+
+    form {
+        margin-top: 20px;
+    }
+</style>
+
+<div class="confirm-container">
+    <h2><i class="fas fa-exclamation-triangle me-2"></i>Eliminar Factura</h2>
+
+    <div class="factura-details">
+        <p><strong>Producto:</strong> @Model.Nombre</p>
+        <p><strong>Marca:</strong> @Model.Especialidad</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Monto:</strong> @Model.Monto.ToString("C")</p>
+        <p><strong>Fecha:</strong> @Model.Fecha.ToString("dd MMM yyyy")</p>
+    </div>
+
+    <form asp-action="Delete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Confirmar Eliminación</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+
+</div>
