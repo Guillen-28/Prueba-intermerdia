@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\linda\\source\\repos\\factura\\",
+  "WorkspaceRootPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CBCE252-A691-41A1-81A1-7971AB7E7DB4}|Negocio\\Negocio.csproj|c:\\users\\linda\\source\\repos\\factura\\negocio\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\factura\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|solutionrelative:factura\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\factura\\views\\factura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|solutionrelative:factura\\views\\factura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\factura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|solutionrelative:factura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\factura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|solutionrelative:factura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBCE252-A691-41A1-81A1-7971AB7E7DB4}|Negocio\\Negocio.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\negocio\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CBCE252-A691-41A1-81A1-7971AB7E7DB4}|Negocio\\Negocio.csproj|solutionrelative:negocio\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCEABC05-E4AA-437C-B9CA-CE64F4045694}|Modelo\\Modelo.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\modelo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCEABC05-E4AA-437C-B9CA-CE64F4045694}|Modelo\\Modelo.csproj|solutionrelative:modelo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85ACA4F6-24C1-4E5D-AD43-D4891CAB60E8}|Entidad\\Entidad.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\entidad\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85ACA4F6-24C1-4E5D-AD43-D4891CAB60E8}|Entidad\\Entidad.csproj|solutionrelative:entidad\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|c:\\users\\linda\\source\\repos\\prueba-intermerdia\\factura\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1A0A40-EB10-44F4-BDF1-ED4DFF0F1A75}|factura\\factura.csproj|solutionrelative:factura\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +70,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FacturaService.cs",
-              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\FacturaService.cs",
-              "RelativeDocumentMoniker": "Negocio\\FacturaService.cs",
-              "ToolTip": "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\FacturaService.cs",
-              "RelativeToolTip": "Negocio\\FacturaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Views\\Factura\\Index.cshtml",
+              "RelativeDocumentMoniker": "factura\\Views\\Factura\\Index.cshtml",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Views\\Factura\\Index.cshtml",
+              "RelativeToolTip": "factura\\Views\\Factura\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T02:57:54.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\appsettings.json",
+              "RelativeDocumentMoniker": "factura\\appsettings.json",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\appsettings.json",
+              "RelativeToolTip": "factura\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T02:57:42.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Program.cs",
+              "RelativeDocumentMoniker": "factura\\Program.cs",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Program.cs",
+              "RelativeToolTip": "factura\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T19:52:37.376Z",
+              "WhenOpened": "2025-06-07T02:57:33.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\FacturaService.cs",
+              "RelativeDocumentMoniker": "Negocio\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\FacturaService.cs",
+              "RelativeToolTip": "Negocio\\FacturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:59:04.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Modelo\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Modelo\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:57:10.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "factura\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "factura\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T02:58:19.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "factura\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\factura\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "factura\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T03:58:08.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Factura.cs",
+              "RelativeDocumentMoniker": "Entidad\\Factura.cs",
+              "ToolTip": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Factura.cs",
+              "RelativeToolTip": "Entidad\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:26:16.708Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "9967b14e-b5b2-4fbe-860e-a09ea3d98da9",
+        "Display": 0,
+        "X": 149,
+        "Y": 98,
+        "Width": 1009,
+        "Height": 573,
+        "WindowState": 0
+      },
+      "DocumentGroups": []
     }
   ]
 }

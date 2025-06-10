@@ -9,6 +9,8 @@
       "factura/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
           "Negocio": "1.0.0"
         },
         "runtime": {
@@ -493,6 +495,11 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/9.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "9.0.5"
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.5"
@@ -838,6 +845,13 @@
           }
         }
       },
+      "System.Diagnostics.Tools/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Drawing.Common/6.0.0": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "6.0.0"
@@ -1033,6 +1047,9 @@
         }
       },
       "Entidad/1.0.0": {
+        "dependencies": {
+          "System.Diagnostics.Tools": "4.3.0"
+        },
         "runtime": {
           "Entidad.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1218,6 +1235,13 @@
       "sha512": "sha512-Y4194uyqwMivN2ioKd7GYBFVeeG2kZFFC1ZCmOTvXy3G6Wd05ZVyUyR/3mB+SHCequMPt/DI4f58WMmVaOS6eg==",
       "path": "microsoft.entityframeworkcore.sqlserver/9.0.5",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.9.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZXWaG/tNZpgJUX8rFVEsgskuFzCvhQnQu8IkEEn4kAepYWpnUZa08vME289OYZ+bYfucH/uSVQi+rh6mOZtfVA==",
+      "path": "microsoft.entityframeworkcore.tools/9.0.5",
+      "hashPath": "microsoft.entityframeworkcore.tools.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/9.0.5": {
       "type": "package",
@@ -1456,6 +1480,13 @@
       "sha512": "sha512-WoI5or8kY2VxFdDmsaRZ5yaYvvb+4MCyy66eXo79Cy1uMa7qXeGIlYmZx7R9Zy5S4xZjmqvkk2V8L6/vDwAAEA==",
       "path": "system.diagnostics.diagnosticsource/9.0.5",
       "hashPath": "system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512"
+    },
+    "System.Diagnostics.Tools/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
+      "path": "system.diagnostics.tools/4.3.0",
+      "hashPath": "system.diagnostics.tools.4.3.0.nupkg.sha512"
     },
     "System.Drawing.Common/6.0.0": {
       "type": "package",

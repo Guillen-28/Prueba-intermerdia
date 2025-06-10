@@ -36,7 +36,7 @@ namespace Modelo.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Especialidad")
+                    b.Property<string>("Marca")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Fecha")
@@ -45,7 +45,7 @@ namespace Modelo.Migrations
                     b.Property<decimal>("Monto")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Nombre")
+                    b.Property<string>("Producto")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

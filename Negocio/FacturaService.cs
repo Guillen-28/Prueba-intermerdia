@@ -15,7 +15,7 @@ namespace Negocio
         }
         public Factura ObtenerPorId(int id)
         {
-           return _context.Factura.FirstOrDefault(d => d.Id == id);
+           return _context.Factura.FirstOrDefault(d => d.Id == id)!;
         }
         public void Agregar(Factura factura)
         {

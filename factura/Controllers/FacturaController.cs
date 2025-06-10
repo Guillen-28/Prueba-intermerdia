@@ -51,7 +51,6 @@ namespace factura.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Suponiendo que Agregar también hace update si el ID ya existe (o crea otro método)
                 _service.Actualizar(factura);
                 return RedirectToAction("Index");
             }

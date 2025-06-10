@@ -35,10 +35,10 @@ namespace Modelo.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Especialidad")
+                    b.Property<string>("Marca")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nombre")
+                    b.Property<string>("Producto")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

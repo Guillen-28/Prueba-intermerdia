@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\Negocio.csproj": {}
+    "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\Negocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj",
+        "projectPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj",
         "packagesPath": "C:\\Users\\linda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\obj\\",
+        "outputPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\linda\\source\\repos\\factura\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\factura\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\linda\\source\\repos\\factura\\Modelo\\Modelo.csproj",
+        "projectPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\Modelo.csproj",
         "packagesPath": "C:\\Users\\linda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linda\\source\\repos\\factura\\Modelo\\obj\\",
+        "outputPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj"
+              "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -150,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\Negocio.csproj": {
+    "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\Negocio.csproj",
+        "projectPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\Negocio.csproj",
         "packagesPath": "C:\\Users\\linda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linda\\source\\repos\\factura\\Negocio\\obj\\",
+        "outputPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,11 +184,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\linda\\source\\repos\\factura\\Entidad\\Entidad.csproj"
+              "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Entidad\\Entidad.csproj"
               },
-              "C:\\Users\\linda\\source\\repos\\factura\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\linda\\source\\repos\\factura\\Modelo\\Modelo.csproj"
+              "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\linda\\source\\repos\\Prueba-intermerdia\\Modelo\\Modelo.csproj"
               }
             }
           }

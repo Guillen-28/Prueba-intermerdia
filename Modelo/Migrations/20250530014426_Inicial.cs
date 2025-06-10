@@ -16,8 +16,8 @@ namespace Modelo.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Especialidad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Producto = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Marca = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
